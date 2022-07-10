@@ -8814,146 +8814,146 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
 	if (isBanChat) return reply(mess.banChat)
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `Hi ${pushname}`,
-                    description: `Please Choose The Menu\n\n`,
+                    title: `Hallo ${pushname}`,
+                    description: `Silahkan Pilih Menunya\nKalo ada yang eror harap dimaklumi\n\n`,
                     buttonText: "Menu",
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "𝙁𝙞𝙩𝙪𝙧 𝘼𝙬𝙖𝙡 𝘽𝙤𝙩",
 								"rows": [
 									{
-										"title": "Other ☕",
+										"title": "𝗢𝘁𝗵𝗲𝗿 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Other Features",
 										"rowId": `${prefix}othermenu`
 									}
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "𝙁𝙞𝙩𝙪𝙧 𝘽𝙤𝙩",
 								"rows": [
 									{
-										"title": "All Menu 🥀",
+										"title": "𝗔𝗹𝗹 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of All The Features!",
 										"rowId": `${prefix}allmenu`
 									},
 									{
-										"title": "Owner Menu 💠",
+										"title": "𝗢𝘄𝗻𝗲𝗿 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Owner Features",
 										"rowId": `${prefix}ownermenu`
 										},
 									{
-										"title": "Group Menu ✨",
+										"title": "𝗚𝗿𝗼𝘂𝗽 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Main Features",
 										"rowId": `${prefix}groupmenu`
 										},
 										{
-										"title": "Maker Menu 🌈",
+										"title": "𝗥𝗽𝗴 𝗠𝗲𝗻𝘂",
+										"description": "Displays The List Of Rpg Features",
+										"rowId": `${prefix}rpgmenu`
+										},
+										{
+										"title": "𝗠𝗮𝗸𝗲𝗿 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Logo Making Features",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Sound Menu 🎵",
+										"title": "𝗠𝗲𝗻𝘂 𝗦𝗼𝘂𝗻𝗱",
 										"description": "Displays The List Of Sound Features",
 										"rowId": `${prefix}soundmenu`
 									},
 									{
-										"title": "Download Menu ↘️",
+										"title": "𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Download Features",
 										"rowId": `${prefix}downloadmenu`
 									},
 									{
-										"title": "Sticker Menu 🃏",
+										"title": "𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Sticker Features",
 										"rowId": `${prefix}indomenu`
 									},
 									{
-										"title": "Search Menu 🔎",
+										"title": "𝗦𝗲𝗮𝗿𝗰𝗵 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Searching Features",
 										"rowId": `${prefix}searchmenu`
 									},
 									{
-										"title": "Tool Menu ⚙️",
+										"title": "𝗧𝗼𝗼𝗹𝘀 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Tool Features",
 										"rowId": `${prefix}toolmenu`
 									},
 									{
-										"title": "Random Image Menu 🌆",
+										"title": "𝗥𝗮𝗻𝗱𝗼𝗺 𝗜𝗺𝗮𝗴𝗲 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Random Image Features",
 										"rowId": `${prefix}randomimagemenu`
 									},
-									{
-										"title": "Image Effect Menu 🖼️",
-										"description": "Displays The List Of Image Effect Features",
-										"rowId": `${prefix}imageeffectmenu`
-									},
 										{
-											"title": "Anime Menu 😘",
+											"title": "𝗔𝗻𝗶𝗺𝗲 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Random Anime Features",
 										"rowId": `${prefix}animemenu`
 										},
 										{
-											"title": "Emote Menu 😀",
-										"description": "Displays The List Of Emote Features",
-										"rowId": `${prefix}emotemenu`
-										},
-										{
-										"title": "Anime Sticker Menu ☺️",
+										"title": "𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗔𝗻𝗶𝗺𝗲 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Anime Sticker Features",
 										"rowId": `${prefix}animestickermenu`
 									     },
 									{
-										"title": "Nsfw Menu 🤓",
+										"title": "𝗡𝘀𝗳𝘄 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Nsfe Features",
 										"rowId": `${prefix}nsfwmenu`
 									     },
 										{
-											"title": "Fun Menu 🕺",
+											"title": "𝗙𝘂𝗻 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Fun Features",
 										"rowId": `${prefix}funmenu`
 										},
 										{
-										"title": "Game Menu 🎮",
+										"title": "𝗚𝗔𝗠𝗘 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Game Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Convert Menu ⚒️",
+											"title": "𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Convert Features",
 										"rowId": `${prefix}convertmenu`
 										},
 										{
-											"title": "Database Menu ♻️",
+											"title": "𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Database Features",
 										"rowId": `${prefix}databasemenu`
 										},
 										{
-										"title": "Indo Menu  🦜",
+											"title": "𝗜𝘀𝗹𝗮𝗺 𝗠𝗲𝗻𝘂",
+										"description": "Displays The List Of Islamic Features",
+										"rowId": `${prefix}islamicmenu`
+										},
+										{
+										"title": "𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Indo Features",
 										"rowId": `${prefix}indomenu`
 									},
 										{
-											"title": "Horoscope Menu 🕊️",
+											"title": "𝗛𝗼𝗿𝗼𝘀𝗰𝗼𝗽𝗲 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Horoscope Features",
 										"rowId": `${prefix}indohoroscopemenu`
 										}
 								]
 							},
 							{
-								"title": "Chat With Fellow Users 🌝",
+								"title": "𝙈𝙚𝙣𝙜𝙤𝙗𝙧𝙤𝙡 𝘿𝙚𝙣𝙜𝙖𝙣 𝙎𝙚𝙨𝙖𝙢𝙖 𝙋𝙚𝙣𝙜𝙜𝙪𝙣𝙖",
 								"rows": [
 									{
-										"title": "Anonymous Chat Menu 🙎🏻‍♂️",
+										"title": "𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Anonymous Chat Features",
 										"rowId": `${prefix}anonymousmenu`
 									}
 								]
 							},
 							{
-								"title": "Credit ©️",
+								"title": "𝘾𝙧𝙚𝙙𝙞𝙩𝙨 ©",
 								"rows": [
 									{
-										"title": "Thanks To ❤️",
+										"title": "𝗖𝗿𝗲𝗱𝗶𝘁𝘀 𝗠𝗲𝗻𝘂",
 										"description": "Displays The List Of Credit Of The Bot !!",
 										"rowId": `${prefix}tqtt`
 									}
