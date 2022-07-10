@@ -1,24 +1,7 @@
 //════════════════════════════//
-//If you want to recode, reupload
-//or copy the codes/script,
-//pls give credit
-//no credit? i will take action immediately
+//Recode By ArullOfc 
 //© 2022 Xeon Bot Inc. Cheems Bot MD
 //Thank you to Lord Buddha, Family and Myself
-//════════════════════════════//
-//recode kar ke youtube pe upload kar rhe hai ya
-//codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
-// ka link paste kr dena as a cradit or github 
-//repo me bhi tag kardena baki jo
-//bhi karna hai apki marzi, thank you!🦄
-//════════════════════════════//
-//If you recode and uploading on your channel
-//or copy pasting the codes in ur script, 
-//i give permission to do as long as you
-//put Xeons youtube channel link in the video
-//description and tag me on githuh repo, 
-//thank you🦄
 //════════════════════════════//
 
 const fs = require('fs')
@@ -36,11 +19,11 @@ global.APIKeys = {
 
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
-global.autoReadGc = false //auto reading in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
-global.available = true //auto available (true to on, false to off)
+global.autoTyping = false //autoketik otomatis di gc (true buat on, false buat off)
+global.autoreadpmngc = false //pembacaan otomatis di pc (true to buat on, false buat off)
+global.autoReadGc = false //pembacaan otomatis di gc (true to on, false to off)
+global.autoRecord = false //perekaman otomatis (true to on, false to off)
+global.available = true //tanda online (true to on, false to off)
 
 //semt menu variants
 global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
@@ -105,20 +88,20 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin First!',
-    owner: 'This Feature Is Only For Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
-    bot: 'This Feature Is Only For Bot',
-    wait: 'In process...',
-    linkm: 'Where is the link?',
-    error: 'Error!!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    success: 'Selesai ✓',
+    admin: 'Fitur Ini Hanya Untuk Admin!',
+    botAdmin: 'Bot Harus Admin Dulu!',
+    owner: 'Fitur Ini Hanya Untuk Pemilik!',
+    group: 'Fitur Hanya Digunakan Untuk Grup!',
+    private: 'Fitur Hanya Digunakan Untuk Obrolan Pribadi!',
+    bot: 'Fitur Ini Hanya Untuk Bot',
+    wait: 'Dalam proses...',
+    linkm: 'Mana linknya?',
+    error: 'Kesalahan!!',
+    endLimit: 'Batas Harian Anda Telah Kedaluwarsa, Batas Akan Direset Setiap 12 Jam',
+    ban: 'Anda telah diblokir oleh pemiliknya, jika Anda ingin diblokir, chat pemilik.',
+    nsfw: 'Fitur nsfw belum diaktifkan, silahkan hubungi admin untuk aktivasi',
+    banChat: 'Bot diblokir di grup ini, harap hubungi pemiliknya untuk membatalkan pemblokiran'
 }
     global.limitawal = {
     premium: "Infinity",
